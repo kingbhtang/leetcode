@@ -17,11 +17,11 @@ def test_two_sum_2():
     test_list = [1]
     target = 1 
 
-    assert two_sum(test_list, target) == [None, None]
+    assert two_sum(test_list, target) == []
 
 
 def test_two_sum_3():
     test_list = [1, 2]
     target = 4
 
-    assert two_sum(test_list, target) == [None, None]
+    assert two_sum(test_list, target) == []
